@@ -12,6 +12,8 @@ def divcplx(c1,c2):
     imag = ((c2[0] * c1[1]) - (c1[0] * c2[1])) / ((c2[0] ** 2) + (c2[1] ** 2))
     return (real, imag)
 
+def divconjugada(c1):
+    return (c1[0], - c1[1])
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
